@@ -5,9 +5,9 @@ It use Express and react.
 
 ## Feature
 
-1. Video List
-2. Video Detail
-3. Comment
+* Video List
+* Video Detail
+* Comment
 
 ## Installation
 
