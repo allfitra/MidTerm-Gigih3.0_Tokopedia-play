@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "64c2b1493dee87c12b7c93d0"
+  },
+  "title": "Start Your Impact Journey with GoTo Impact Foundation",
+  "description": "Video From GoTo Impact Fondation",
+  "thumbnailUrl": "https://www.youtube.com/jLQIMaTQpw"
+},
+{
+  "_id": {
+    "$oid": "64c30f083dee87c12b7c93d2"
+  },
+  "title": "Promo Terbatas Simba Hanya Rp10,00!",
+  "desctiprion": "Tempat belanja murah hanya disini",
+  "thumbnailVideo": "https://youtu.be/VmJ6ddfa3H0"
+},
+{
+  "_id": {
+    "$oid": "64c314f03dee87c12b7c93d4"
+  },
+  "title": "DISKON SEMUA ETALASE MULAI DARI 99RBan",
+  "desctiprion": "Gudang diskon hanya disini",
+  "thumbnailVideo": "https://youtu.be/Mfn6ika663g"
+},
+{
+  "_id": {
+    "$oid": "64c3157a3dee87c12b7c93d5"
+  },
+  "title": "kejar diskon terbatas",
+  "desctiprion": "diskon besar khusus hari ini",
+  "thumbnailVideo": "https://youtu.be/D45hH39qT_w"
+},
+{
+  "_id": {
+    "$oid": "64c3161d3dee87c12b7c93d6"
+  },
+  "title": "SALE DISKON SEMUANYA",
+  "desctiprion": "Buruan belanja sebelum kehabisan",
+  "thumbnailVideo": "https://youtu.be/DeHiK0IZ_E4"
+}]
