@@ -20,6 +20,7 @@ $ git clone https://github.com/allfitra/Tokopedia-play_MidTerm-Gigih3.0.git
 
 ```
 $ cd Tokopedia-play_MidTerm-Gigih3.0
+$ npm init
 $ npm install express nodemon body-parser mongoose dotenv
 $ npm start || npx nodemon index
 ```
