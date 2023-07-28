@@ -1,6 +1,6 @@
 Tokopedia play Clone
 
-Tokopedia Clone is a clone app of https://www.tokopedia.com/play. 
+Tokopedia Clone is a clone app of https://www.tokopedia.com/play. <br>
 It use Express and react.
 
 ## Feature
