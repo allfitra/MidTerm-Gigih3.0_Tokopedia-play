@@ -30,12 +30,12 @@ router.get("/home/:id", async (req, res) => {
     });
 });
 
-router.post("/home", (req, res, next) => {
+router.post("/home", async (req, res, next) => {
   const videoList = new VideoList({
     _id: mongoose.Types.ObjectId(),
     ...req.body,
   });
-  videoList
+  await videoList
     .save()
     .then((result) => {
       res.status(201).send(result);
@@ -46,6 +46,21 @@ router.post("/home", (req, res, next) => {
         error: err,
       });
     });
+});
+
+router.post("/home/:id", async (req, res) => {
+  const { videoId, name, comment } = req.body;
+  if (!name || !comment) {
+    return res.status(400).json({ error: err });
+  }
+
+  try {
+    const comment = new Comment({ videoId, name, comment });
+    await comment.save();
+    res.status(201).json(comment);
+  } catch (err) {
+    res.status(500).json({ message: "Server Error" });
+  }
 });
 
 module.exports = router;
